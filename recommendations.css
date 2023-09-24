@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to right top, #cb4f23, #ce6f00, #c89000, #b7b000, #99cf00, #6ad456, #39d686, #00d4ad, #00b3c7, #008cd9, #005fce, #491e99);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+}

@@ -1,0 +1,154 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #005a2d, #00a84f, #66c6e7);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the header */
+header {
+    background-image: linear-gradient(to right top, #1ff244, #00f099, #00e9cd, #67dee2, #b1d0d8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+.welcome {
+     display:block;
+}
+
+/* Style the category list section */
+.category-list {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.category-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.category-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-list li {
+    margin: 5px 0;
+}
+
+.category-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.category-list a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style the product listing section */
+.product-list {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.category-section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.category-section ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ... (previous CSS styles) ... */
+
+/* Style the product container */
+.product-container {
+    border: none;
+    border-radius: 0; /* Remove border radius */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    width: 100%; /* Display products in full width */
+    box-shadow: none; /* Remove box shadow */
+    transition: transform 0.2s;
+    background-color: transparent; /* Remove background color */
+}
+
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product p {
+    font-size: 16px;
+}
+
+.product button.add-to-cart {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.product button.add-to-cart:hover {
+    background-color: #ff6600;
+}
+
+/* ... (previous CSS styles) ... */
+
+
+/* Style the search bar and heading */
+.search-container {
+    text-align: center;
+    margin-top: 20px
+}

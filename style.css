@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #1ff244, #00f099, #00e9cd, #67dee2, #b1d0d8);
+}
+
+/* Basic styling for the header */
+header {
+    color: white;
+    padding: 10px 0;
+    background-image: linear-gradient(to right top, #cb4f23, #ce6f00, #c89000, #b7b000, #99cf00, #6ad456, #39d686, #00d4ad, #00b3c7, #008cd9, #005fce, #491e99);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+/* ... (previous CSS code) ... */
+
+/* Style the symptom search bar */
+.symptom-search input {
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.symptom-search button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ... (previous CSS code) ... */
+
+
+.search-bar button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the main navigation menu */
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #232f3e;
+    padding: 10px 0;
+}
+
+.main-nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 20px 0;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 93%;
+    height: 600px;
+    margin-left:50px;
+}
+/* ... (previous CSS styles) ... */
+
+/* Style the navigation dots */
+.dot-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Highlight the active dot */
+.active {
+    background-color: #ff9900;
+}
+
+/* ... (rest of the CSS styles) ... */
+
+/* Add more CSS to style the product listing and recommendation sections */

@@ -1,0 +1,80 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right top, #1ff244, #00f099, #00e9cd, #67dee2, #b1d0d8);
+    color: #333;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Style the about section */
+.about-us {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Style the team section */
+.team {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.team h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.team ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #232f3e;
+    color: white;
+}
+
+/* Add any additional styles as needed */
